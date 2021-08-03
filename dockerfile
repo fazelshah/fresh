@@ -1,4 +1,4 @@
 FROM fazelshah/docker
 ADD . /var/www/html
-ENTRYPOINT apacheclt -D FOREGROUND
+ENTRYPOINT apachectl -D FOREGROUND
 ENV name fazel
